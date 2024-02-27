@@ -104,7 +104,7 @@ h3 {
     align-self: stretch;
     max-width: 300px;
 
-    background-color: rgb(170, 208, 246);
+    background-color: rgba(170, 208, 246, 0);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.23);
