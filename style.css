@@ -44,6 +44,7 @@ body {
       padding: 10px; /* Добавим отступ вокруг текста внутри прямоугольника */
       border: 3px solid #700080; /* Граница для прямоугольника (необязательно) */
       border-radius: 10px; /* Радиус закругления углов */
+      background: cornsilk;
 }
 
 .icon{
@@ -104,7 +105,7 @@ h3 {
     align-self: stretch;
     max-width: 300px;
 
-    background-color: rgb(170, 208, 246);
+    background-color: aliceblue;
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.23);
