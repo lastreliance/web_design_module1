@@ -2,14 +2,17 @@ html {
     font-size: 20px;
     font-family: Arial, sans-serif;
     height: auto;
-
+}
+@font-face {
+    font-family: 'Font';
+    src: url('font.ttf');
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Font', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url("https://i.pinimg.com/564x/81/d5/ee/81d5eee256f54e2118b86d7b6156b667.jpg");
+    background-image: url("wallpaper.jpg");
     background-size: cover;
     background-position: center;
     min-width: 150px;
@@ -18,21 +21,20 @@ body {
 .portfolio-card {
     max-width: 450px;
     margin: 0 auto;
-    background-color: rgba(170, 208, 246, 0.35);
+    background-color: rgba(255, 208, 246, 0.35);
     padding: 20px;
     box-shadow: 0 0 20px rgb(0, 0, 0);
     border-radius: 50px;
     overflow: hidden;
     backdrop-filter: blur(10px);
 }
-
 .profile-picture {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 auto 20px;
     overflow: hidden;
-    border: 5px solid #a84d00;
+    border: 5px solid #700080;
 }
 
 .profile-picture img {
@@ -50,21 +52,20 @@ p{
     font-family: Verdana, sans-serif;
     text-indent: 50px;
     margin-bottom: 8px;
-    color: #555;
+    color: #222222;
 }
 
 h1 {
     text-align: center;
 }
 h2{
-    color: saddlebrown;
+    color: #700080;
 }
-
 
 h3 {
     /*margin-top: 20px;*/
     /*margin-bottom: 20px;*/
-    color: #a84d00;
+    color: #700080;
 }
 #centered {
     /*margin-top: 20px;*/
@@ -101,10 +102,14 @@ h3 {
 
 .flex__element .flex__title {
     margin-bottom: 0;
-    color: rgba(0, 150, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     text-shadow:
-            2px 2px 5px rgba(0, 150, 255, 0.4);
+            2px 2px 5px rgba(0, 0, 0, 0.4);
 }
+.outlined {
+      background: #222222;
+}
+
 c {
     text-align: center;
     font-size: 1.17em;
